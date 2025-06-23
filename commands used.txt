@@ -1,0 +1,5 @@
+ip a
+nmap -sS 172.24.0.0/20
+nmap -sS 172.24.0.0/20 -oN scan_results.txt
+nmap -sS 172.24.0.0/20 -oX scan.xml
+xsltproc scan.xml -o scan_results.html
