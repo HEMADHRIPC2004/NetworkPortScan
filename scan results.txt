@@ -1,0 +1,18 @@
+ nmap -sS 172.24.0.0/20 -oN scan_results.txt
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-23 21:17 IST
+Nmap scan report for Hemadhri.mshome.net (172.24.0.1)
+Host is up (0.00078s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+MAC Address: 00:15:5D:BE:35:AA (Microsoft)
+
+Nmap scan report for 172.24.5.84
+Host is up (0.0000020s latency).
+All 1000 scanned ports on 172.24.5.84 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 4096 IP addresses (2 hosts up) scanned in 13.85 seconds
