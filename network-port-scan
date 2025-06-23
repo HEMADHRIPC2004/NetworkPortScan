@@ -1,0 +1,8 @@
+network-port-scan/
+├── screenshots/
+│   ├── wireshark_syn_packets.png
+│   └── nmap_terminal_output.png
+├── scan_results.txt
+├── scan_results.html
+├── commands_used.txt
+├── README.md
